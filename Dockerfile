@@ -1,9 +1,9 @@
 FROM halohub/halo:2.0.0
-ENV SPRING_R2DBC_URL r2dbc:pool:postgres://halo:EBTr9CN5LIbjTHbLVpMA4JggVfGHMXak@dpg-ce7ijaqrrk049r5v2hq0-a.singapore-postgres.render.com/halo_swh5
+ENV SPRING_R2DBC_URL postgres://halo:EBTr9CN5LIbjTHbLVpMA4JggVfGHMXak@dpg-ce7ijaqrrk049r5v2hq0-a.singapore-postgres.render.com/halo_swh5
 ENV SPRING_R2DBC_USERNAME=halo
 ENV SPRING_R2DBC_PASSWORD=EBTr9CN5LIbjTHbLVpMA4JggVfGHMXak
 ENV SPRING_SQL_INIT_PLATFORM=postgresql
-ENV HALO_EXTERNAL_URL=http://micromatrix.eu.org/
+ENV HALO_EXTERNAL_URL=https://micromatrix.eu.org/
 ENV HALO_SECURITY_INITIALIZER_SUPERADMINUSERNAME=admin
 ENV HALO_SECURITY_INITIALIZER_SUPERADMINPASSWORD=P@77w0rd
 
